@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+}
+
+
+.headr {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: sans-serif;   
+    margin: 0 auto; 
+
+}
+
+.copilheader {
+    display: flex;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.top , .middle , .quotes {
+    flex: 1 0 1;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.middle{
+
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+
+.copilheader b { 
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
