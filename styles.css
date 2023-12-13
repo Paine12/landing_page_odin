@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     margin: auto;
 }
@@ -7,45 +11,186 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    font-family: sans-serif;   
+   
     margin: 0 auto; 
 
 }
 
 .copilheader {
     display: flex;
-    height: 70%;
-    width: 70%;
     margin: auto;
     gap: 20px;
     align-items: center;
 }
 
+
 .container{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    justify-content: center;
 }
 
-.top , .middle , .quotes {
-    flex: 1 0 1;
+.copilheader, .top , .middle , .quotescontainer , .box {
+    width: 60%;
+    flex-shrink: 0;
 }
 
-.top {
+.quotescontainer {
+    margin: 0  auto;
+}
+
+.quotescontainer p {
+    text-align: right;
+    font-size: 20px;
+}
+
+.herobg {
     background-color: #1F2937;
 }
 
-.middle{
+.top {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  
+} 
 
+.top h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    min-width: 20%;
+    min-height: 25px;
+    align-self:flex-start;
+    margin-bottom: 50px;
+    flex-shrink: 0;
+}
+
+.middle {
+    margin: 0 auto;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.ilustrations {
+    display: flex;
+    gap: 30px;
+}
+
+.casute div {
+    height: 150px;
+    width: auto;
+    border: 4px solid #3882F6;
+    border-radius: 5px;
 }
 
 .quotes {
     background-color: #E5E7EB;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
 }
 
 
-.copilheader b { 
+.copilheader b , .top p{ 
+    margin-top: 0;
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.prez , .hero {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcontainer {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.box {
+    background-color: #3882F6;
+    height: 6em;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: azure;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p , .box bold {
+    margin: 0;
+}
+
+.boxtext {
+    flex-direction: column;
+}
+
+.box div {
+    display: flex;
+    max-height: 90%;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box p {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.box button {
+    all: initial;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border: #e5e7eb 2px solid;
+    min-width: 100px;
+    min-height: 25px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: auto 0;
+    color: #E5E7EB;
 }
